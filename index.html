@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economia Brasil News - Principais Notícias</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-chart-line"></i>
+                    <h1>Economia Brasil News</h1>
+                </div>
+                <div class="header-info">
+                    <span class="date" id="current-date"></span>
+                    <div class="market-indicators">
+                        <div class="indicator">
+                            <span class="label">Dólar:</span>
+                            <span class="value">R$ 5,32</span>
+                            <span class="change positive">+0,33%</span>
+                        </div>
+                        <div class="indicator">
+                            <span class="label">Selic:</span>
+                            <span class="value">15,00%</span>
+                            <span class="change neutral">0%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="hero">
+                <h2>Principais Notícias da Economia Brasileira</h2>
+                <p class="subtitle">Acompanhe as últimas atualizações do mercado financeiro e economia nacional</p>
+            </section>
+
+            <section class="news-grid">
+                <article class="news-card featured">
+                    <div class="news-header">
+                        <span class="category">Política Monetária</span>
+                        <span class="time">1 dia atrás</span>
+                    </div>
+                    <h3>Copom mantém Selic em 15% e não dá espaço para cortes</h3>
+                    <p>O Comitê de Política Monetária (Copom) manteve a taxa Selic em 15% ao ano, adotando tom mais duro e não sinalizando cortes no curto prazo. Economistas dizem que não há espaço para apostas de corte de juros no curto prazo.</p>
+                    <div class="news-footer">
+                        <span class="source">InfoMoney</span>
+                        <div class="impact high">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            Alto Impacto
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-header">
+                        <span class="category">Câmbio</span>
+                        <span class="time">13 horas atrás</span>
+                    </div>
+                    <h3>Dólar fecha em alta a R$ 5,31 após decisões de juros</h3>
+                    <p>O dólar fechou em alta de 0,33% nesta quinta-feira (18), cotado a R$ 5,3189, enquanto o Ibovespa recuou 0,06%. Movimento ocorreu após as decisões de juros no Brasil (manutenção) e EUA (corte para 4,0-4,25%).</p>
+                    <div class="news-footer">
+                        <span class="source">G1/Folha</span>
+                        <div class="impact medium">
+                            <i class="fas fa-chart-line"></i>
+                            Médio Impacto
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-header">
+                        <span class="category">Rating</span>
+                        <span class="time">10 horas atrás</span>
+                    </div>
+                    <h3>Ceron critica "penalização" de agências de rating</h3>
+                    <p>Secretário do Tesouro Nacional critica agências de classificação de risco por "penalizarem" o Brasil. Brasil cresceu 3,2% entre 2022-2024, enquanto eurozona cresceu apenas 1,2%.</p>
+                    <div class="news-footer">
+                        <span class="source">InfoMoney</span>
+                        <div class="impact medium">
+                            <i class="fas fa-balance-scale"></i>
+                            Médio Impacto
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-header">
+                        <span class="category">Setor Empresarial</span>
+                        <span class="time">1 dia atrás</span>
+                    </div>
+                    <h3>Entidades empresariais criticam juros altos</h3>
+                    <p>Organizações empresariais criticam a manutenção dos juros em 15% e pedem políticas monetária e fiscal alinhadas. Setor produtivo pressiona por redução da taxa básica de juros.</p>
+                    <div class="news-footer">
+                        <span class="source">InfoMoney</span>
+                        <div class="impact low">
+                            <i class="fas fa-industry"></i>
+                            Baixo Impacto
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-header">
+                        <span class="category">Agronegócio</span>
+                        <span class="time">10 horas atrás</span>
+                    </div>
+                    <h3>Conab prevê aumento de 3,7% no plantio de soja</h3>
+                    <p>Companhia Nacional de Abastecimento projeta nova safra recorde de soja para a temporada 2025/26. Setor agrícola continua sendo pilar importante da economia brasileira.</p>
+                    <div class="news-footer">
+                        <span class="source">InfoMoney</span>
+                        <div class="impact low">
+                            <i class="fas fa-seedling"></i>
+                            Baixo Impacto
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="context-section">
+                <h3>Contexto Econômico</h3>
+                <div class="context-grid">
+                    <div class="context-card">
+                        <h4><i class="fas fa-globe-americas"></i> Cenário Internacional</h4>
+                        <ul>
+                            <li>Fed americano cortou juros para 4,0-4,25%, primeira redução em 2025</li>
+                            <li>Diferencial de juros Brasil-EUA agora supera 1.000 pontos base</li>
+                        </ul>
+                    </div>
+                    <div class="context-card">
+                        <h4><i class="fas fa-university"></i> Cenário Fiscal</h4>
+                        <ul>
+                            <li>OAB pede ao STF suspensão de emenda que adia pagamentos de precatórios</li>
+                            <li>Cenário fiscal dos municípios melhora, mas 2.025 municípios ainda têm liquidez difícil</li>
+                        </ul>
+                    </div>
+                    <div class="context-card">
+                        <h4><i class="fas fa-chart-bar"></i> PIB e Crescimento</h4>
+                        <ul>
+                            <li>Brasil tem 6ª maior alta do PIB entre países do G20 no 2º trimestre</li>
+                            <li>PIB brasileiro acumula crescimento de 3,2% nos últimos 12 meses</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2025 Economia Brasil News. Desenvolvido com CI/CD automatizado.</p>
+                    <p>Última atualização: <span id="last-update"></span></p>
+                </div>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">
+                        <i class="fab fa-github"></i>
+                        Código Fonte
+                    </a>
+                    <a href="#" class="footer-link">
+                        <i class="fas fa-rocket"></i>
+                        Deploy Automático
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
