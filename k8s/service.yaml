@@ -9,7 +9,7 @@ spec:
   ports:
     - port: 80
       targetPort: 80
-      nodePort: 30082 # Usando uma porta diferente para evitar conflitos
+      nodePort: 30083 # Usando uma porta diferente para evitar conflitos
   selector:
     app: economia-brasil-news
 
